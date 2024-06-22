@@ -91,9 +91,9 @@
          <artifactId>automate-maven-plugin</artifactId>
          <version>1.1.1</version>
        <configuration>
-           <source>${maven.compiler.source}</source>
-           <target>${maven.compiler.target}</target>
-           <complianceLevel>${maven.compiler.target}</complianceLevel>
+           <source>1.4</source>
+           <target>1.4</target>
+           <complianceLevel>1.4</complianceLevel>
        </configuration>
       <executions>
         <execution>
