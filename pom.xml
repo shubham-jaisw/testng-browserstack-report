@@ -84,6 +84,9 @@
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
+                          <excludes>
+                            <exclude>**/*.java</exclude>
+                          </excludes>
                 </configuration>
             </plugin>
 
